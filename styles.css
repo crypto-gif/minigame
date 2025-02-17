@@ -1,15 +1,61 @@
-#eins {
-    background-color: turquoise;
+h1 {
+    display: flex;
+    margin-top: 20vh;
+    margin-bottom: 2rem;
+    justify-content: center;
 }
 
-#zwei {
-    background-color: goldenrod;
+div {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 
-#drei {
-    background-color: olivedrab;
+button {
+    margin-right: 5px;
 }
 
-#vier {
-    background-color: orange;
+p {
+    display: flex;
+    justify-content: center;
+}
+
+
+.buttonOne {
+    background-color: #D9D97B;
+}
+
+.buttonTwo {
+    background-color: #CD8853;
+}
+
+.buttonThree {
+    background-color: #D87E74;
+}
+
+.buttonFour {
+    background-color: #E5949A;
+}
+
+.row1 {
+    display: flex;
+    justify-content: center;
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+}
+
+.start {
+    background-color: #8FD368;
+    color: darkslategrey;
+}
+
+.running {
+    background-color: rgb(182, 174, 174);
+    color: white;
+}
+
+.active {
+    background-color: whitesmoke;
 }
